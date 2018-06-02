@@ -24,14 +24,14 @@
     <body>
     <main id="main">
       <div class="flexbox-container">
-          <form>
+          <form onsubmit="getRepositories();return false;">
             <div class="form-group row">
               <label for="username" class="col-sm-6 col-form-label">GIT Username:</label>
               <div class="col-sm-8">
                 <input type="text" class="form-control" name="username" id="username">
               </div>
             </div>
-            <input type="submit" class="btn btn-primary" value="Submit Form" onclick="getRepositories()">
+            <input type="submit" class="btn btn-primary" value="Submit Form">
           </form>
       </div>
     </main>
